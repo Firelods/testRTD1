@@ -6,7 +6,11 @@ site_name: Nom de votre projet
 
 # Thème utilisé (par défaut "readthedocs")
 theme:
-  name: readthedocs
+  name: material
+  # https://squidfunk.github.io/mkdocs-material/customization/
+  custom_dir: docs/overrides
+  features:
+    - navigation.tabs
 
 # Répertoire contenant les fichiers Markdown
 docs_dir: docs
@@ -18,16 +22,10 @@ nav:
 
 # Extensions Markdown
 markdown_extensions:
-  - toc:
-      permalink: true
-  - admonition
-  - footnotes
   - tables
-  - myst_parser
   
 # Plugins
-plugins:
-  - search
+
 
 
 # Fichiers statiques (optionnel)
