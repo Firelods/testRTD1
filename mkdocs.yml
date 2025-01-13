@@ -7,8 +7,6 @@ site_name: Nom de votre projet
 # Thème utilisé (par défaut "readthedocs")
 theme:
   name: material
-  # https://squidfunk.github.io/mkdocs-material/customization/
-  custom_dir: docs/overrides
   features:
     - navigation.tabs
 
